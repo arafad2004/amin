@@ -1,0 +1,160 @@
+body {
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/05/7-gradient-background-animation-CSS.jpg);
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    overflow-y: hidden;
+    margin: 0px;
+}
+
+@keyframes fade-in {
+    1% {
+        opacity: 1%;
+        transform: translateY(15px);
+
+    }
+    100% {
+        opacity: 2;
+        transform: translateY(0px);
+    }
+} 
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fade-in 0.5s;
+    padding-top: 10px;
+}
+
+.aga {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.amina {
+list-style: none;
+display: flex;
+}
+
+.amina-g {
+margin-right: 25px;
+
+}
+
+.yga {
+text-decoration: none;
+color: aliceblue;
+font-weight: 500;
+font-size: 14px;
+transition: all 0.4s;
+}
+
+.yga:hover {
+    color: antiquewhite;
+}
+
+/* main */
+
+.main {
+    text-align: center;
+    margin-top: 110px;
+    animation: fade-in 0.5s 0.1s backwards;
+}
+
+.heading {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.9;
+}
+
+.text {
+    font-size: 24px;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+.text--bold {
+    font-weight: 700;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.input {
+    width: 511px;
+    height: 64px;
+    border: none;
+    padding: 0px;
+    border-radius: 3px;
+    opacity: 0.8;
+    padding-left: 30px;
+    font-size: 17px;
+    font: inherit;
+    outline: none; /* find replacement */
+    transition: all0.4s;
+}
+
+.input:focus {
+    opacity: 1;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.btn {
+border: none;
+padding: 0%;
+background-color: black;
+height: 64px;
+width: 133px;
+color: white;
+font: inherit;
+border-radius: 3px;
+margin-left: 5px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 14px;
+font-weight: 500;
+}
+
+.btn:hover {
+ cursor: pointer;   
+ background-color: black;
+}
+
+/* Footer */
+.footer {
+display: flex;
+justify-content: space-between;
+width: 1150px;
+margin-left: auto;
+margin-right: auto;
+margin: auto;
+font-size: 12px;
+padding-bottom: 15px;
+border-top: 1px solid rgba(255, 255, 255, 0.2);
+padding-top: 10px;
+color: rgba(255, 255, 255, 0.5;
+animation: fade-in 0.5s o.2s backwards;
+}
+
+.copyright {
+
+}
+
+.stats {
+
+}
